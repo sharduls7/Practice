@@ -1,0 +1,76 @@
+
+<!--DOCTYPE helps the browser to render this file as an HTML5 doc7-->
+<!DOCTYPE html>
+
+<!--html tag tells everything in bet. its opening & closing tag will be html code-->
+<html lang="en">
+
+<!--It's split into head & body. Head is the part of the html file that holds info
+about the page -->
+<head>
+    <!--metadata or associated data to your HTML page, in this case charset
+    UTF-8 implies our webpage is encoded using UTF-8 encoding system. UTF-8 is 
+    a standard encoding since it includes all international symbols(related to languages)
+    & every single symbol from Unicode character set. So this gives your website maximum chance
+    to be rendered correctly on browsers that are from international visitors
+    Apart from charset there are other attributes to meta tag also exist like name ,
+    content etc. Content when used with name="description" attr gives info to search engines 
+    about content of website. So this is what search engines do, they crawl the 
+    HTML of your site & look for certain meta tags in order to know what your website is about
+    & also how to display it in their search index-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Website</title>
+</head>
+<body>
+    <h1>Shardul</h1>
+    <p> Text in paragraph - <em>emphasized</em>, <i>italics</i>  </p>
+    <!--Both <i> & <em> tags do the same thing visually ie italisize the text.
+    By default, the visual result is the same. However, the semantic meaning is 
+    different. The <em> element represents stress emphasis of its contents, while 
+    the <i> element represents text that is set off from the normal prose, such a 
+    foreign word, fictional character thoughts, or when the text refers to the 
+    definition of a word instead of representing its semantic meaning. 
+    (The title of a work, such as the name of a book or movie, should use <cite>.)
+    This means the right one to use depends on the situation. Neither is for purely 
+    decorative purposes, that's what CSS styling is for.
+    An example for <em> could be: "Just do it already!", or: "We had to do something about it". A person or software reading the 
+    text would pronounce the words in italics with an emphasis, using verbal stress.
+
+    An example for <i> could be: "The Queen Mary sailed last night". 
+    Here, there is no added emphasis or importance on the word "Queen Mary". 
+    It is merely indicated that the object in question is not a queen named Mary, 
+    but a ship named Queen Mary. 
+    Another example for <i> could be: "The word the is an article
+
+    Similar pair is <b> & <strong> tag. 
+    <b> is for presentation, and <strong> is for context. 
+    Visual browsers usually render strong text as bold, 
+    but things such as screen readers can render it as a louder voice. 
+    The <strong> tag is a phrase tag. The <b> tag is a font-style tags.
+    -->
+
+    <hr size="2"> <!--2 px border-->
+
+    <ol type="i"> 
+        <li>Martial Arts</li>
+        <a href="https://www.urbanpro.com/pune/kickboxing-classes" target="_blank" style="text-decoration: none;">
+            <li>Kick Boxing</li>
+        </a>
+        <li>Taekwando</li>
+    </ol>
+
+    <!--img tag is self closing-->
+    <a href="https://www.zomato.com/ncr/restaurants/dish-burritos" target="_blank"><img src="https://www.bing.com/th?id=ATOOL7647772A0403BAC551DD393587CE62E0F0E5AC65BE143DC6E3A4961757CAA6D5&w=472&h=280&c=1&rs=2&o=6&pid=SANGAM" alt="Burrito Image"></a>
+    <!--src attr contains src while alt attr contains text to disp when img cant be found at the
+    given src location. This is also helpful for SEO, the text in alt attr lets say if it's burrito helps search engines to
+    to index & figure out that may be your webpage is listed when somebody is searching for burritos
+    
+    For src attr you can also use file paths. It's much more reliable since the online path where the img is located may go down
+    in the future causing your site to not render the img--> 
+
+    <hr size="3">
+    <a href="experience.html"><h5>Work Experience</h5></a>
+
+</html>
